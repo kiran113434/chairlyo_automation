@@ -1,11 +1,21 @@
 const { defineConfig } = require("cypress");
+require("dotenv").config();
 
 module.exports = defineConfig({
-  allowCypressEnv: false,
+  // allowCypressEnv: false,
+    e2e: {
+    baseUrl: process.env.BASE_URL,
 
-  e2e: {
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      config.env.username = process.env.CYPRESS_USERNAME;
+      config.env.password = process.env.CYPREESS_PASSWORD;
+
+      return config;
     },
+  
+
+
+    
   },
+  
 });
