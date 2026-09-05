@@ -1,0 +1,9 @@
+
+
+
+export const login_data={
+    invalid_email_data:"dkdkdk@gmail.com",
+    invalid_password_data:"skill@111",
+    
+
+}
