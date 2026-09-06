@@ -10,12 +10,12 @@ export const login_data={
 export const branch_data={
     branch_name:"mero_branch",
     slug:"slug_sweep",
-    phone:"+977 9854634339",
+    phone:"+977 9854634349",
     email:"myskilltopnotch@gmail.com",
     address:"Merothau,Merothegana,MeroDEsh",
     first_name:"BrunoDaGoat",
     last_name:"Fernandez",
-    admin_email:"myskilltopnotch@gmail.com",
+    admin_email:"myskilltopnotchs@gmail.com",
     password:"Myskill@123",
     admin_phone:"9854634349"
     
